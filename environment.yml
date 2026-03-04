@@ -1,0 +1,35 @@
+name: chicago-crime
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pyarrow
+  - geopandas
+  - shapely
+  - folium
+  - matplotlib
+  - seaborn
+  - plotly
+  - missingno
+  - statsmodels
+  - scipy
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - imbalanced-learn
+  - tqdm
+  - joblib
+  - openpyxl
+  - jinja2
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - nbconvert
+  - pip
+  - pip:
+    - pmdarima
+    - prophet
+    - branca
